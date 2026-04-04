@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Minimal Shopping</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!--  (White Tab) -->
+  <header class="topbar">
+
+    <!-- logo-->
+    <div class="topbar-left">
+      <img
+        src="D:\course guru\Project\Images\logo.png"
+        alt="Logo"
+        class="logo-img"
+      />
+
+
+      <!-- name brand-->
+      <span class="brand-name">
+        <span class="name-red">Minimal</span>&nbsp;<span class="name-orange">Shopping</span>
+      </span>
+    </div>
+
+    <div class="topbar-right">
+      <img
+        src="D:\course guru\Project\Images\user.svg"
+        alt="User"
+        class="user-icon"
+      />
+    </div>
+
+  </header>
+
+  <!-- ===== MAIN CONTENT ===== -->
+  <main class="main-content">
+    <h1 class="page-title">All Products</h1>
+
+    <div class="product-grid">
+
+      <!-- ROW 1-->
+      <div class="product-card">
+        <div class="card-img-wrap">
+          <button class="wishlist-btn" onclick="toggleWishlist(this)">&#9829;</button>
+          <img src="D:\course guru\Project\Images\4.png" alt="Product"/>
+        </div>
+        <div class="card-info">
+          <div class="card-top"><span class="card-name">iPhone 9</span><span class="card-price">85$</span></div>
+          <p class="card-desc">An apple mobile which is nothing like apple, the apple mobile which is nothing like apple.</p>
+        </div>
+      </div>
+
+      <div class="product-card">
+        <div class="card-img-wrap">
+          <button class="wishlist-btn" onclick="toggleWishlist(this)">&#9829;</button>
+          <img src="D:\course guru\Project\Images\3.png" alt="Product"/>
+        </div>
+        <div class="card-info">
+          <div class="card-top"><span class="card-name">iPhone 9</span><span class="card-price">85$</span></div>
+          <p class="card-desc">Organic Cotton, Fair Trade quality.</p>
+        </div>
+      </div>
+
+      <div class="product-card">
+        <div class="card-img-wrap">
+          <button class="wishlist-btn" onclick="toggleWishlist(this)">&#9829;</button>
+          <img src="D:\course guru\Project\Images\2.png" alt="Product"/>
+        </div>
+        <div class="card-info">
+          <div class="card-top"><span class="card-name">iPhone 9</span><span class="card-price">85$</span></div>
+          <p class="card-desc">Organic Cotton, Fair Trade quality.</p>
+        </div>
+      </div>
+
+      <div class="product-card">
+        <div class="card-img-wrap">
+          <button class="wishlist-btn" onclick="toggleWishlist(this)">&#9829;</button>
+          <img src="D:\course guru\Project\Images\1.png" alt="Product"/>
+        </div>
+        <div class="card-info">
+          <div class="card-top"><span class="card-name">Rounded neck - T-shirt</span><span class="card-price">85$</span></div>
+          <p class="card-desc">100% Cotton, Organic Cotton, Fair Trade quality.</p>
+        </div>
+      </div>
+
+      <!-- ROW 2 -->
+      <div class="product-card selected">
+        <div class="card-img-wrap">
+          <button class="wishlist-btn" onclick="toggleWishlist(this)">&#9829;</button>
+          <img src="D:\course guru\Project\Images\4.png" alt="Product"/>
+        </div>
+        <div class="card-info">
+          <div class="card-top"><span class="card-name">iPhone 9</span><span class="card-price">00$</span></div>
+          <p class="card-desc">An apple mobile which is nothing like apple, the apple mobile which is nothing like apple.</p>
+        </div>
+      </div>
+
+      <div class="product-card selected">
+        <div class="card-img-wrap">
+          <button class="wishlist-btn" onclick="toggleWishlist(this)">&#9829;</button>
+          <img src="D:\course guru\Project\Images\3.png" alt="Product"/>
+        </div>
+        <div class="card-info">
+          <div class="card-top"><span class="card-name">iPhone 9</span><span class="card-price">00$</span></div>
+          <p class="card-desc">Organic Cotton, Fair Trade quality.</p>
+        </div>
+      </div>
+
+      <div class="product-card selected">
+        <div class="card-img-wrap">
+          <button class="wishlist-btn" onclick="toggleWishlist(this)">&#9829;</button>
+          <img src="D:\course guru\Project\Images\2.png" alt="Product"/>
+        </div>
+        <div class="card-info">
+          <div class="card-top"><span class="card-name">iPhone 9</span><span class="card-price">00$</span></div>
+          <p class="card-desc">Organic Cotton, Fair Trade quality.</p>
+        </div>
+      </div>
+
+      <div class="product-card selected">
+        <div class="card-img-wrap">
+          <button class="wishlist-btn" onclick="toggleWishlist(this)">&#9829;</button>
+          <img src="D:\course guru\Project\Images\1.png" alt="Product"/>
+        </div>
+        <div class="card-info">
+          <div class="card-top"><span class="card-name">Rounded neck - T-shirt</span><span class="card-price">85$</span></div>
+          <p class="card-desc">100% Cotton, Organic Cotton, Fair Trade quality.</p>
+        </div>
+      </div>
+
+      <!-- ROW 3 -->
+      <div class="product-card">
+        <div class="card-img-wrap">
+          <button class="wishlist-btn" onclick="toggleWishlist(this)">&#9829;</button>
+          <img src="D:\course guru\Project\Images\4.png" alt="Product"/>
+        </div>
+        <div class="card-info">
+          <div class="card-top"><span class="card-name">iPhone 9</span><span class="card-price">85$</span></div>
+          <p class="card-desc">An apple mobile which is nothing like apple, the apple mobile which is nothing like apple.</p>
+        </div>
+      </div>
+
+      <div class="product-card">
+        <div class="card-img-wrap">
+          <button class="wishlist-btn" onclick="toggleWishlist(this)">&#9829;</button>
+          <img src="D:\course guru\Project\Images\3.png" alt="Product"/>
+        </div>
+        <div class="card-info">
+          <div class="card-top"><span class="card-name">iPhone 9</span><span class="card-price">85$</span></div>
+          <p class="card-desc">Organic Cotton, Fair Trade quality.</p>
+        </div>
+      </div>
+
+      <div class="product-card">
+        <div class="card-img-wrap">
+          <button class="wishlist-btn" onclick="toggleWishlist(this)">&#9829;</button>
+          <img src="D:\course guru\Project\Images\2.png" alt="Product"/>
+        </div>
+        <div class="card-info">
+          <div class="card-top"><span class="card-name">iPhone 9</span><span class="card-price">85$</span></div>
+          <p class="card-desc">Organic Cotton, Fair Trade quality.</p>
+        </div>
+      </div>
+
+      <div class="product-card">
+        <div class="card-img-wrap">
+          <button class="wishlist-btn" onclick="toggleWishlist(this)">&#9829;</button>
+          <img src="D:\course guru\Project\Images\1.png" alt="Product"/>
+        </div>
+        <div class="card-info">
+          <div class="card-top"><span class="card-name">Rounded neck - T-shirt</span><span class="card-price">85$</span></div>
+          <p class="card-desc">100% Cotton, Organic Cotton, Fair Trade quality.</p>
+        </div>
+      </div>
+
+    </div>
+  </main>
+
+  <script>
+    function toggleWishlist(btn) {
+      btn.classList.toggle('active');
+    }
+  </script>
+
+</body>
+</html>
