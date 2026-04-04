@@ -7,7 +7,7 @@ import eyeIcon from './assets/eye.png'; // أيقونة العين اللي في
 function App() {
   return (
     <div className="main-wrapper">
-      {/* الـ Header بالصور الحقيقية */}
+      {/* header*/}
       <header className="header">
         <div className="logo-area">
           <img src={logo} alt="Minimal Shopping" className="main-logo" />
