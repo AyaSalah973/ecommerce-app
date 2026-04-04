@@ -1,11 +1,10 @@
-/* الخلفية الفاتحة اللي في الصورة */
+
 .main-wrapper {
   background-color: #fcfcfc; 
   min-height: 100vh;
   padding: 30px 60px;
 }
 
-/* رص الـ Logo والأيقونة بعيد عن بعض */
 .header {
   display: flex;
   justify-content: space-between;
@@ -13,28 +12,44 @@
   margin-bottom: 100px;
 }
 
-.logo-area { display: flex; align-items: center; gap: 10px; }
+.logo-area { 
+  display: flex; 
+  align-items: center; 
+  gap: 10px; }
 .main-logo { width: 40px; }
-.brand-name { font-size: 1.5rem; color: #333; }
-.brand-name span { color: #ff3b5c; font-weight: bold; }
-.top-user-icon { width: 30px; opacity: 0.6; }
+.brand-name { 
+  font-size: 1.5rem; 
+  color: #333; }
+.brand-name span { 
+  color: #ff3b5c; 
+  font-weight: bold; }
+.top-user-icon { 
+  width: 30px; 
+  opacity: 0.6; }
 
-/* تنسيق منطقة الـ Login */
 .login-box {
   max-width: 420px;
   margin: 0 auto;
   text-align: center;
 }
 
-.title { font-size: 2.2rem; color: #222; margin-bottom: 5px; }
-.subtitle { color: #999; margin-bottom: 30px; }
-.hint { font-size: 0.9rem; color: #555; margin-bottom: 40px; }
+.title { 
+  font-size: 2.2rem; 
+  color: #222; 
+  margin-bottom: 5px; }
+.subtitle { 
+  color: #999; 
+  margin-bottom: 30px; }
+.hint { 
+  font-size: 0.9rem; 
+  color: #555; 
+  margin-bottom: 40px; 
+}
 
-/* الـ Inputs بالخط اللي تحت (زي الصورة) */
 .input-container {
   text-align: left;
   margin-bottom: 30px;
-  border-bottom: 2px solid #F89300; /* الخط اللي تحت */
+  border-bottom: 2px solid #F89300; 
   padding-bottom: 5px;
 }
 
@@ -63,39 +78,32 @@
   cursor: pointer; 
   opacity: 0.7; 
 }
-/* تنسيق السطر اللي شايل الـ Checkbox والنص */
+
 .checkbox-row {
   display: flex;
-  align-items: center; /* بيخلي النص والـ checkbox على خط واحد */
-  gap: 12px;           /* المسافة بين المربع وكلمة Remember me */
+  align-items: center;
+  gap: 12px;          
   margin-top: 25px;
   margin-bottom: 20px;
-  text-align: left;    /* عشان يجي على الشمال زي الصورة */
+  text-align: left;   
 }
 
-/* تنسيق الـ Checkbox نفسه */
 .checkbox-row input[type="checkbox"] {
-  /* تغيير اللون الأساسي للبرتقالي */
   accent-color: #f7941d; 
-  
-  /* تكبير الحجم عشان يبقى واضح زي الصورة */
   width: 20px;
   height: 20px;
-  
   cursor: pointer;
-  border-radius: 4px; /* انحناء خفيف في الزوايا */
+  border-radius: 4px; 
 }
 
-/* تنسيق النص "Remember me" */
 .checkbox-row label {
   font-size: 0.95rem;
-  color: #444;       /* لون رمادي غامق هادئ */
-  cursor: pointer;   /* عشان لما تضغطي على الكلمة يعمل Check */
+  color: #444;      
+  cursor: pointer;  
   font-weight: 500;
-  user-select: none; /* بيمنع تحديد النص بالخطأ لما نضغط كتير */
+  user-select: none; 
 }
 
-/* الزرار المستدير (Pill Button) */
 .submit-btn {
   background: white;
   color: #ff3b5c;
