@@ -1,0 +1,48 @@
+body {
+  margin: 0;
+  background-color: #f5f5f5;
+  font-family: Arial, sans-serif;
+}
+
+/* Navbar */
+.navbar {
+  width: 100%; /* full width */
+  display: flex;
+  justify-content: space-between; /* Left side & Right side */
+  align-items: center;
+  background: #fff;
+  padding: 10px 30px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  box-sizing: border-box;
+}
+
+/* Left side: logo + text */
+.nav-left {
+  display: flex;
+  align-items: center;
+  gap: 10px; 
+  font-size: 20px;
+  font-weight: bold;
+}
+
+/* Logo */
+.logo {
+  width: 50px;
+  height: auto;
+}
+
+/* Text colors */
+.brand-orange {
+  color: orange;
+}
+
+.brand-red {
+  color: red;
+}
+
+/* Right side: user */
+.user {
+  width: 50px;
+  height: auto;
+}
+
