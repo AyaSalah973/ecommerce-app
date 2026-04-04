@@ -16,6 +16,7 @@ function App() {
       </header>
 
       {/* page content*/}
+      <h1>Test Navbar</h1>
       <div className="login-box">
         <h2 className="title">Hello Again!</h2>
         <p className="subtitle">Welcome Back You've Been Missed!</p>
