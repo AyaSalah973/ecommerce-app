@@ -1,0 +1,54 @@
+/* Container */
+.container {
+  padding: 30px; 
+}
+
+.title {
+  margin-bottom: 20px;
+  text-align: center;
+  font-family: 'Outfit', sans-serif; 
+  font-weight: 500; 
+  font-style: normal; 
+  font-size: 40px; 
+  line-height: 100%;
+  letter-spacing: 0%; 
+}
+
+/* Products Grid */
+.products-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 20px;
+}
+
+.card {
+  background: #fff;
+  border-radius: 12px;
+  padding: 15px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+/* Product Image */
+.product-img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+/* Product Title */
+.products-title {
+  font-size: 13px;
+  font-weight: 400;   
+  margin: 6px 0;
+}
+
+.product-price {
+  color: green;
+  font-weight: bold;
+}
