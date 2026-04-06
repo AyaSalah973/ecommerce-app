@@ -1,5 +1,55 @@
-import { BrowserRouter, Routes, Route, useNavigate } from "react-router-dom";
-import Home from "./Pages/Home";
+
+import './App.css';
+// 1. استدعاء الصور بتاعتك من فولدر assets
+import logo from './icons/logo.png'; 
+import userIcon from './assets/user.png';
+import eyeIcon from './assets/eye.png'; // أيقونة العين اللي في الصورة
+
+function App() {
+  return (
+    <div className="main-wrapper">
+      {/* header*/}
+      <header className="header">
+        <div className="logo-area">
+          <img src={logo} alt="Minimal Shopping" className="main-logo" />
+          <h1 className="brand-name">Minimal <span>Shop</span>ping</h1>
+        </div>
+        <img src={userIcon} alt="user" className="top-user-icon" />
+      </header>
+
+      {/* محتوى الصفحة */}
+      <div className="login-box">
+        <h2 className="title">Hello Again!</h2>
+        <p className="subtitle">Welcome Back You've Been Missed!</p>
+        <p className="hint">To login enter Your email address and password</p>
+
+        <form>
+          <div className="input-container">
+            <label>Email Address</label>
+            <div className="input-with-icon">
+              <input type="email" />
+              <img src={eyeIcon} className="field-icon" alt="eye" />
+            </div>
+          </div>
+
+          <div className="input-container">
+            <label>Password</label>
+            <div className="input-with-icon">
+              <input type="password" />
+              <img src={eyeIcon} className="field-icon" alt="eye" />
+            </div>
+          </div>
+
+          <div className="checkbox-row">
+            <input type="checkbox" id="rem" />
+            <label htmlFor="rem">Remember me</label>
+          </div>
+
+          <button className="submit-btn">Login</button>
+        </form>
+      </div>
+    </div>
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Products from "./Products";
 import ProductDetails from "./Pages/ProductDetails";
 import Login from "./Pages/Login";
