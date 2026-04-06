@@ -1,0 +1,139 @@
+/* ===== Login Page Only ===== */
+
+.main-wrapper {
+  background-color: #fcfcfc;
+  min-height: 100vh;
+  padding: 30px 60px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 100px;
+}
+
+.logo-area {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.main-logo { width: 40px; }
+
+.brand-name {
+  font-size: 1.5rem;
+  color: #333;
+  font-weight: bold;
+}
+
+.brand-name span {
+  color: #ff3b5c;
+  font-weight: bold;
+}
+
+.top-user-icon {
+  width: 30px;
+  opacity: 0.6;
+}
+
+.login-box {
+  max-width: 420px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.login-title {
+  font-size: 2.2rem;
+  color: #222;
+  margin-bottom: 5px;
+}
+
+.login-subtitle {
+  color: #999;
+  margin-bottom: 30px;
+}
+
+.login-hint {
+  font-size: 0.9rem;
+  color: #555;
+  margin-bottom: 40px;
+}
+
+.input-container {
+  text-align: left;
+  margin-bottom: 30px;
+  border-bottom: 2px solid #f89300;
+  padding-bottom: 5px;
+}
+
+.input-container label {
+  display: block;
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: #333;
+}
+
+.input-with-icon {
+  display: flex;
+  align-items: center;
+}
+
+.input-with-icon input {
+  flex: 1;
+  border: none;
+  background: transparent;
+  padding: 10px 0;
+  outline: none;
+  font-size: 0.95rem;
+  color: #333;
+}
+
+.checkbox-row {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-top: 25px;
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.checkbox-row input[type="checkbox"] {
+  accent-color: #f7941d;
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}
+
+.checkbox-row label {
+  font-size: 0.95rem;
+  color: #444;
+  cursor: pointer;
+  font-weight: 500;
+  user-select: none;
+}
+
+.submit-btn {
+  background: white;
+  color: #ff3b5c;
+  border: 1px solid #f0f0f0;
+  padding: 18px 100px;
+  border-radius: 50px;
+  font-weight: 600;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.05);
+  margin-top: 40px;
+  cursor: pointer;
+  transition: 0.3s;
+  font-size: 1rem;
+}
+
+.submit-btn:hover {
+  background: #f89300;
+  color: white;
+}
+
+@media (max-width: 600px) {
+  .main-wrapper { padding: 20px 24px; }
+  .header { margin-bottom: 50px; }
+  .submit-btn { padding: 16px 60px; }
+}
